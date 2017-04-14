@@ -1,0 +1,5 @@
+pymysql
+pysocks
+pyyaml
+requests==2.12.5
+sqlalchemy

@@ -1,0 +1,15 @@
+ # 数据库配置
+mysql_user: root
+mysql_password: 
+mysql_host: 
+mysql_db: iac_monitor
+ 
+ # 检查厂区设置，可选 iacs，iacp，iacj，ianc. all为测试全部厂区
+check_site: iacp
+
+ # open-falcon设定，send_opagent为开关
+send_opagent: True
+opagent_url: "http://10.150.254.246:1988/v1/push"
+
+ # 检查网址设定
+check_url: "http://www.google.com"
